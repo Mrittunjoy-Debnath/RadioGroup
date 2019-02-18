@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        android:text="Radio button inside RadioGroup" />
+
+
+    <!--   Customized RadioButtons  -->
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+    <RadioButton
+        android:id="@+id/answer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="answer1"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/answer2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="answer2"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:textSize="20dp" />
+
+
+            <RadioButton
+                android:id="@+id/answer3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="answer3"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="answer4"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Selected"
+        android:id="@+id/button"
+        android:onClick="onclickbuttonMethod"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="22dp"
+        android:text="Radio button inside RadioGroup" />
+
+
+    <!--   Customized RadioButtons  -->
+
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup2">
+
+        <RadioButton
+            android:id="@+id/answer21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="answer1"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/answer22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="answer2"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+
+        <RadioButton
+            android:id="@+id/answer23"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="answer3"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/answer24"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="answer4"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Selected"
+        android:id="@+id/button2"
+        android:onClick="onclickbuttonMethod2"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Total Marks:"
+        android:background="#CDDD3D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+<TextView
+    android:id="@+id/textViewId"
+    android:textStyle="bold"
+    android:background="#CDDD3D"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
